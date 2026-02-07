@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Für dich 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="app">
+    <div class="card">
+      <h1>Shelly, willst du mein Valentine sein? 💕</h1>
+      <p id="comment"></p>
+
+      <div class="buttons">
+        <button class="yes-button">Ja 💖</button>
+        <button class="no-button">Nein 😐</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sounds -->
+  <audio id="noSound" src="sounds/no.mp3"></audio>
+  <audio id="yesSound" src="sounds/yes.mp3"></audio>
+
+  <!-- Hintergrundmusik -->
+  <audio id="bgMusic" src="sounds/bg.mp3" loop></audio>
+
+  <!-- QR-Code Library -->
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs/qrcode.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
