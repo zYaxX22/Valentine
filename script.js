@@ -138,10 +138,11 @@ yesButton.addEventListener("click", () => {
     `;
 
     new QRCode(document.getElementById("qrcode"), {
-      text: "https://DEIN-LINK-HIER",
+      text: "https://zyaxx22.github.io/Wedding/",
       width: 160,
       height: 160
     });
 
   }, 800);
 });
+
